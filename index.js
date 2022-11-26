@@ -26,7 +26,7 @@ let Scraper = {
       //   });
 
       //   console.log(links);
-      // URL must be look like it                               **https://images.hdqwalls.com/download/2020-batman-beyond-4k-mv-1920x1080.jpg**
+      // URL must be look like                               **https://images.hdqwalls.com/download/2020-batman-beyond-4k-mv-1920x1080.jpg**
       await downloadAbleLinks.forEach((link, index) => {
         downloadAbleLinks[index] = `https://images.hdqwalls.com/download/${
           path.basename(link).split(".")[0]
